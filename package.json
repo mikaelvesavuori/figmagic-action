@@ -1,6 +1,6 @@
 {
   "name": "figmagic-action",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Use Figmagic to retrieve tokens, graphics, and/or React components from a Figma document.",
   "main": "figmagic.sh",
   "homepage": "https://github.com/mikaelvesavuori/figmagic-action",
