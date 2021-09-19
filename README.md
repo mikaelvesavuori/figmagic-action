@@ -42,7 +42,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: figmagic
-        uses: mikaelvesavuori/figmagic-action@v1
+        uses: mikaelvesavuori/figmagic-action@v1.0.0
         with:
           figma-url: ${{ secrets.FIGMA_URL }}
           figma-token: ${{ secrets.FIGMA_TOKEN }}
