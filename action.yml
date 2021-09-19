@@ -1,5 +1,8 @@
 name: 'Figmagic'
 description: 'Use Figmagic to retrieve tokens, graphics, and/or React components from a Figma document'
+branding:
+  icon: 'package'
+  color: 'green'
 inputs:
   figma-url:
     description: 'Figma document URL or document ID'
