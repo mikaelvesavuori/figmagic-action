@@ -1,0 +1,16 @@
+name: 'Figmagic'
+description: 'Use Figmagic to retrieve tokens, graphics, and/or React components from a Figma document'
+inputs:
+  figma-url:
+    description: 'Figma document URL or document ID'
+    required: true
+    default: ''
+  figma-token:
+    description: 'Personal Figma API token'
+    required: true
+    default: ''
+runs:
+  using: "composite"
+  steps:
+    - run: ${{ github.action_path }}/figmagic.sh ${{ inputs.figma-url }} ${{ inputs.figma-token }}
+      shell: bash
