@@ -25,6 +25,6 @@ if [ ! -f $CONFIG_FILE ]; then
   npx figmagic init
 fi
 
-npx figmagic
+npx figmagic --token $TOKEN --url $URL
 
 exit 0
