@@ -4,7 +4,7 @@ Use [Figmagic](https://github.com/mikaelvesavuori/figmagic) to retrieve tokens, 
 
 ## Setup and usage
 
-You need to set two secrets: `FIGMA_URL` and `FIGMA_TOKEN`. Set these as per the [Figmagic documentation](https://github.com/mikaelvesavuori/figmagic#running-figmagic).
+You need to set two secrets: `FIGMA_URL` and `FIGMA_TOKEN`. Read more in the [Figmagic documentation](https://github.com/mikaelvesavuori/figmagic#running-figmagic) about how to get them. Refer to [GitHub's documentation](https://docs.github.com/en/actions/reference/encrypted-secrets) for how to set them.
 
 Figmagic will pick up desired configuration from your `figmagic.json` file, but if this file does not exist Figmagic will create ("init") a base configuration file to use.
 
